@@ -1,3 +1,7 @@
+:root {
+  --orange-color: #FF6900;
+}
+
 /* reset  */
 * {
   margin: 0;
@@ -65,8 +69,13 @@ ul {
 
 /* header  */
 header {
-  background-color: #FF6900;
+  background-color: var(--orange-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 60px;
+  z-index: 9999;
 }
 
 .left-section {
@@ -98,6 +107,10 @@ header {
 }
 
 /* main  */
+main {
+  padding: 80px 0 50px;
+}
+
 .main-container {
   flex-wrap: wrap;
 }
