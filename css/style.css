@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Common */
 .container {
   width: 80%;
@@ -49,6 +53,46 @@ a {
   background-color: red;
   color: white;
 }
+
+.align-vertical-horizontal {
+  justify-content: center;
+  align-items: center;
+}
+
+/* header  */
+header {
+  background-color: #FF6900;
+  height: 60px;
+}
+
+.left-section {
+  width: 20%;
+}
+
+.header-list li {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.middle-section {
+  width: 70%;
+}
+
+.boolean-logo {
+  width: 200px;
+}
+
+.right-section {
+  width: 10%;
+  text-align: end;
+}
+
+.login-icons {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
 /* main  */
 .main-container {
   flex-wrap: wrap;
