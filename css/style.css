@@ -4,3 +4,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Common */
+.container {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* utiliteis */
+.flex {
+  display: flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.p-relative {
+  position: relative;
+}
+.p-absolut {
+  position: absolute;
+}
+
+.padding-5px-10px {
+  padding: 5px 10px;
+}
+
+.bg-green {
+  background-color: #008000;
+  color: white;
+}
+.bg-red {
+  background-color: red;
+  color: white;
+}
+/* main  */
+.main-container {
+  flex-wrap: wrap;
+}
+
+/* col  */
+.col {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+.hover {
+  display: none;
+}
+
+.col:hover .img-content .not-hover {
+  display: none;
+}
+
+.col:hover .img-content .hover {
+  display: inline-block;
+}
+
+.brand {
+  color: grey;
+  font-style: italic;
+}
+
+.name-drees {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.prise {
+  color: red;
+}
+
+.crossed-prise {
+  text-decoration: line-through;
+  font-weight: 200;
+}
+
+.hearts {
+  padding: 10px;
+  background-color: white;
+  right: 10px;
+  top: 20px;
+  font-size: 1.7rem;
+}
+
+.col:hover .absolute-element .hearts {
+  color: red;
+}
+
+.p-left-bottom {
+  left: 10px;
+  bottom: 100px;
+}
